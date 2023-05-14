@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.new.container {
+  padding: 0;
+  min-height: 30vh;
+  width: auto;
+}
+
+.new.note {
+  background-color: cyan;
+}
+
+.btn {
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px 5px 10px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.header {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search.container {
+  min-height: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: violet;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.search input {
+  width: 90%;
+  border: none;
+  outline: none;
+  background-color: violet;
+}
+
+.card {
+  width: 100%;
+  margin: auto;
+  background-color: "cyan";
+}
+
+.textarea {
+  width: 100%;
+  height: 140px;
+  background-color: cyan;
+  border: 0;
+  resize: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.container {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-height: 100vh;
+}
+
+.notes-list {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+}
+
+.note {
+  background-color: yellow;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  padding: 1rem;
+  min-height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+}
+
+.note-footer {
+  display: flex;
+  align-items: center;
+  /* justify-content: center ; */
+  justify-content: space-between;
+}
